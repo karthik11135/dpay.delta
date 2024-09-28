@@ -1,6 +1,6 @@
-import React from 'react'
+
 import BottomBar from './BottomBar'
-import TopBar from './TopBar'
+
 import Hero from './Hero'
 
 const Home = () => {

@@ -1,5 +1,4 @@
-import React from "react";
-import { FoodIcon, HomeIcon, MoreIcon, TransactionIcon } from "./ui/Icons";
+
 import NavItem from "./NavItem";
 
 const BottomBar = () => {

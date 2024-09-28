@@ -1,7 +1,6 @@
-import React from "react";
+
 import BottomBar from "./BottomBar";
 
-const stallOptions = [];
 
 export const MorePage = () => {
   return (
