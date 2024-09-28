@@ -36,7 +36,7 @@ const Payment = () => {
           </p>
 
           <p
-            onClick={() => navigate("/more")}
+            onClick={() => navigate("/")}
             className="px-10 py-2 text-white text-2xl font-light my-3 mx-auto rounded-md bg-slate-800 w-fit"
           >
             Back
