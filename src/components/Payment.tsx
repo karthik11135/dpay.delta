@@ -11,8 +11,8 @@ const Payment = () => {
 
   return (
     <div className="h-screen bg-bgColor overflow-scroll">
-      <BottomBar />
-      <div className="px-3 py-2 pt-4 mb-32">
+      {/* <BottomBar /> */}
+      <div className="px-3 py-2 pt-4 mb">
         <img src="/paymenttick.jpg"></img>
         <div className="text-center">
           <h1 className="text-white mb-5 font-medium text-center text-4xl">
