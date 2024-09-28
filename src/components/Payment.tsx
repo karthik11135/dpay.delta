@@ -1,6 +1,6 @@
 
 import { useNavigate, useSearchParams } from "react-router-dom";
-import BottomBar from "./BottomBar";
+
 
 const Payment = () => {
   const [searchParams] = useSearchParams();
@@ -11,7 +11,7 @@ const Payment = () => {
 
   return (
     <div className="h-screen bg-bgColor overflow-scroll">
-      {/* <BottomBar /> */}
+
       <div className="px-3 py-2 pt-4 mb">
         <img src="/paymenttick.jpg"></img>
         <div className="text-center">
