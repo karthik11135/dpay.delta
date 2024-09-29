@@ -1,6 +1,5 @@
-
 import { FoodIcon } from "../ui/Icons";
-import {  useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 interface StallCardProps {
   title: string;
@@ -17,7 +16,19 @@ const StallCard = ({ title, color, subtitle }: StallCardProps) => {
       className="grid grid-cols-12 gap-3 py-5 px-2.5 mb-3 bg-slate-800 rounded-xl mx-6"
     >
       <div className="col-span-3 flex items-center">
-        <div className={`rounded-full bg-${color}-500 mx-auto w-fit p-2.5`}>
+        <div
+          className={`rounded-full mx-auto w-fit p-2.5 ${
+            color === "green"
+              ? "bg-green-500"
+              : color === "red"
+              ? "bg-red-500"
+              : color === "purple"
+              ? "bg-purple-500"
+              : color === "orange"
+              ? "bg-orange-500"
+              : ""
+          }`}
+        >
           <FoodIcon activeProp={false} />
         </div>
       </div>
