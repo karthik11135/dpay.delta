@@ -8,7 +8,7 @@ export const HomeIcon = ({ activeProp }: { activeProp: boolean }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke={iconColor}
-      className="size-9"
+      className="size-8"
     >
       <path
         strokeLinecap="round"
@@ -28,7 +28,7 @@ export const TransactionIcon = ({ activeProp }: { activeProp: boolean }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke={iconColor}
-      className="size-9"
+      className="size-8"
     >
       <path
         strokeLinecap="round"
@@ -39,7 +39,7 @@ export const TransactionIcon = ({ activeProp }: { activeProp: boolean }) => {
   );
 };
 
-export const MoreIcon =({ activeProp }: { activeProp: boolean })=> {
+export const MoreIcon = ({ activeProp }: { activeProp: boolean }) => {
   const iconColor = activeProp ? "rgba(72,220,164,255)" : "white";
   return (
     <svg
@@ -48,7 +48,7 @@ export const MoreIcon =({ activeProp }: { activeProp: boolean })=> {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke={iconColor}
-      className="size-9"
+      className="size-8"
     >
       <path
         strokeLinecap="round"
@@ -67,12 +67,48 @@ export const FoodIcon = ({ activeProp }: { activeProp: boolean }) => {
       // height="24px"
       viewBox="0 -960 960 960"
       width="24px"
-    //   stroke={iconColor}
-    //   color={"pink"}
-      className="size-9"
+      //   stroke={iconColor}
+      //   color={"pink"}
+      className="size-8"
       fill={iconColor}
     >
       <path d="M533-440q-32-45-84.5-62.5T340-520q-56 0-108.5 17.5T147-440h386ZM40-360q0-109 91-174.5T340-600q118 0 209 65.5T640-360H40Zm0 160v-80h600v80H40ZM720-40v-80h56l56-560H450l-10-80h200v-160h80v160h200L854-98q-3 25-22 41.5T788-40h-68Zm0-80h56-56ZM80-40q-17 0-28.5-11.5T40-80v-40h600v40q0 17-11.5 28.5T600-40H80Zm260-400Z" />
+    </svg>
+  );
+};
+
+export const WrongIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={1.5}
+    stroke="currentColor"
+    className="size-7"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+    />
+  </svg>
+);
+
+export const WarningIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      className="size-6"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z"
+      />
     </svg>
   );
 };

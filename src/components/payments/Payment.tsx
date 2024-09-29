@@ -9,6 +9,8 @@ const Payment = () => {
   const shopName = searchParams.get("shop");
   const timeText = searchParams.get("timeText");
 
+  console.log(balance, shopName, timeText)
+
   return (
     <div className="h-screen bg-bgColor overflow-scroll">
 
